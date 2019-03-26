@@ -14,7 +14,7 @@
 ### Unit 1
 | Day | Morning Exercise | Lectures | Labs | Homework |
 |:---:|:-----------:|:-------:|:-----------:|:-----------:|
-| w01d1 |[N/A](./unit_1/w01d01/morning_exercise)| [Navigating terminal, intro to JavaScript and Programming, Conditionals, Booleans, Loops](./unit_1/w01d01/instructor_notes)| [Just the Beginning](./unit_1/w01d01/student_labs)|[](./unit_1/w01d01/homework)|
+| w01d1 |[N/A](./unit_1/w01d01/morning_exercise)| [Navigating terminal, intro to JavaScript and Programming, Conditionals, Booleans, Loops](./unit_1/w01d01/instructor_notes)| [Just the Beginning](./unit_1/w01d01/student_labs)|[The First Homework](./unit_1/w01d01/homework)|
 | w01d2 |[Setting Up for Success](./unit_1/w01d02/morning_exercise)| [Git and GitHub, CSS Lesson](./unit_1/w01d02/instructor_notes)| [Git/GitHub, Booleans and Loops](./unit_1/w01d02/student_labs)|[](./unit_1/w01d02/homework)|
 | w01d3 |[Git Pull Upstram Master](./unit_1/w01d03/morning_exercise)| [Intro to Conditionals and Loops, Arrays and Iteration](./unit_1/w01d03/instructor_notes)| [Loops and Conditionals, Arrays and Conditionals](./unit_1/w01d03/student_labs)|[](./unit_1/w01d03/homework)|
 | w01d4 |[HTML Mockup pt.1](./unit_1/w01d04/morning_exercise)| [Functions, Scope](./unit_1/w01d04/instructor_notes)| [Problem Solving](./unit_1/w01d04/student_labs)|[](./unit_1/w01d04/homework)|
