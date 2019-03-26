@@ -187,7 +187,7 @@ So let's cover both!
 
 Now, let's go ahead and try the second way 
 
-### 2: Making changes on Github itself 
+### 2: Making changes locally 
 
 This is the way you'll mostly be making changes to your repo, on your computer first, then pushing the changes up to the browser version of the repo. 
 
