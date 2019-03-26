@@ -96,6 +96,8 @@ Now try to pseudo-code the next Booleans & Loops section <b>before</b> you write
 
 ## Hungry for More?
 
+1. Learn more about floats by following the [Fluid Floats](../morning_exercise/fluid_floats) exercise
+
 1. Try out some [Project Euler](https://projecteuler.net/archives) problems. Specifically try out numbers 1 & 2.
 
 1. [How about Kaprekars Constant?](https://coderbyte.com/editor/guest:Kaprekars%20Constant:JavaScript)
