@@ -1,7 +1,7 @@
 ![](/ga_cog.png)
 
 ---
-Title: Review: git/github, terminal, and anything we've covered so far & HTML Boilerplate <br>
+Title: Review: git/github, terminal, and anything we've covered so far & HTML <br>
 Type: Morning Exercise<br>
 Duration: "0:45"<br>
 Modified by: Kristyn Bryan<br>
