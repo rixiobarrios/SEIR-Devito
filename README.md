@@ -1,6 +1,6 @@
 ![](/ga_cog.png)
 
-# Devito 
+# SEIR-Devito 
 
 <a href="https://www.youtube.com/watch?v=hPNUtbNpKUU"><img src="https://imgur.com/gDgw9qr.png"></a>
 
