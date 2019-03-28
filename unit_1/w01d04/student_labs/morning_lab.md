@@ -136,6 +136,8 @@ console.log(letterReverse("Aren't you a little short for a storm trooper"));
 
 
 ## Hungry for More?
-Get started on the afternoon lab!
 
+1. Go back to yesterday's labs if you didn't finish 
+
+1. Get started on the afternoon lab!
 
