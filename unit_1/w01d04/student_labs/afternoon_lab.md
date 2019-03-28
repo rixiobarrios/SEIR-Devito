@@ -129,7 +129,7 @@ After your function finds the needle it should return a message (as a string) th
 
 `"found the needle at postition"` plus the index it found the needle so:
 
-`find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])`
+`findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])`
 
 Should return:
 
