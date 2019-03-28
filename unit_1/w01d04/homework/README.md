@@ -18,7 +18,7 @@
 1. First, let's actually learn a bit of CSS! Watch [this ~17 minute instructional video](https://www.youtube.com/watch?v=g0Aq2kP5-CY&index=5&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) on selection in CSS
     - _NOTE_: YouTube lets you watch things at a higher speed (such as 1.5x speed) by clicking on the gear and selecting a different speed! 
 
-1. Once you're done with that, let's get started on the JavaScrip! In tonight's `homework` folder, create a file called `solutions.js`. Write your answers in that file
+1. Once you're done with that, let's get started on the JavaScript! In tonight's `homework` folder, create a file called `solutions.js`. Write your answers in that file
 
 ## Verbal Questions 
 
