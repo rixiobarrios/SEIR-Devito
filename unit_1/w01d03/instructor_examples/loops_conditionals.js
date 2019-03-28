@@ -11,7 +11,7 @@
 // ITERATE a loop starting from 1 and going to 10
 // DETERMINE if the current number is even
 // IF it is even
-//   INCREMENT sum by 1
+//   INCREMENT sum by the even number
 // END IF
 
 let sum = 0;
