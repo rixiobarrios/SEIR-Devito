@@ -203,3 +203,8 @@ Similar to how you wrote your own `forEach` and `map` functions during lecture, 
 1. Reduce
 1. Some
 1. Sort
+
+
+---
+
+*Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
