@@ -189,22 +189,6 @@ Great, now Gru has had some practice with array methods that require callbacks. 
 
  </p></details> 
 
-
----
-
-# Hungry for more? 
-
-Similar to how you wrote your own `forEach` and `map` functions during lecture, do the same with the other array methods you researched on your own! 
-
-1. Every
-1. Filter
-1. Find
-1. Find Index
-1. Reduce
-1. Some
-1. Sort
-
-
 ---
 
 *Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
