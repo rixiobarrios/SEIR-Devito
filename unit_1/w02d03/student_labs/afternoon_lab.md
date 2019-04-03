@@ -43,7 +43,7 @@
 
 ## Stretch
 
-- Using classes, generate a deck of cards, stored in an array
+- Using classes, generate a deck of cards and store them in an array
     - cards are objects and should have a value, a face, a suit, a boolean of whether they are faceUp etc.
     - there are 13 cards per suit, values should match what they are in BlackJack (or another game), 
             - Ace, by default is equal to 11, 
