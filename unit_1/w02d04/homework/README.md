@@ -29,6 +29,7 @@ Minimum Functionality Required for this homework to be considered complete:
 
 
 *Copyright 2019, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 ---
 Title: Space Battle & Ecardly <br>
 Type: Homework<br>
