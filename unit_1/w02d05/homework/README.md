@@ -4,8 +4,8 @@
 
 This weekend's homework comes in two required parts: 
 
-1. jQuery Magic
-1. eCardly Mockup
+1. [jQuery Magic](jquery-magic)
+1. [eCardly Mockup](eCardly]
 
 #### Learning Objectives
 
