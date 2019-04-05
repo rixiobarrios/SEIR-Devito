@@ -2,6 +2,8 @@
 
 # jQuery Magic
 
+![](https://www.rollingstone.com/wp-content/uploads/2018/06/gettyimages-519322618-066e466f-deaa-4bed-ab2f-1c674bdb7b1c.jpg)
+
 You are now a wizard and you will no longer hard code html during your time at Hogwarts (or the duration of this assignment) 
 
 You will make things appear and disappear (and more) with the magic of jQuery!
