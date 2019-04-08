@@ -20,9 +20,9 @@ We are going to take a trip from the Shire, through Rivendell, across Middle Ear
 
 ## Getting Started
 
-1. You will be writing your answers inside the `fellowship.js` file located in tonight's `homework/lotr/scripts/` folder
+1. You will be writing your answers inside the `fellowship.js` file located in tonight's `homework/scripts/` folder
 
-1. While you're working, make sure to open the `index.html` file in your browser to test your work. It is located at: `homework/lotr/index.html`
+1. While you're working, make sure to open the `index.html` file in your browser to test your work. It is located at: `homework/index.html`
 
 ## Resources 
 
