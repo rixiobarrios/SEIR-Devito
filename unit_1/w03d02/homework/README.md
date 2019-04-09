@@ -4,7 +4,7 @@
 
 ![preview](https://i.imgur.com/usMkA4g.png)
 
-A to do list is a classic app to practice programming languages with. So for tonight's homework, you'll be building a To-Do list app with two columns: one for things to do, and another for things that have been done. You shold use jQuery to give your app functionality.
+A to do list is a classic app to practice programming languages with. So for tonight's homework, you'll be building a To-Do list app with two columns: one for things to do, and another for things that have been done. You should use jQuery to give your app functionality.
 
 #### Learning Objectives
 
