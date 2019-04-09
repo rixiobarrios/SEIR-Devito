@@ -12,13 +12,13 @@
 
 
 /* center the container and imply margins */
-#container {
+.container {
   width: 90%;
   margin: auto;
 }
 
 /* make the div with the id lists into a flex container */
-#lists {
+.lists {
   display: flex;
   justify-content: space-around;
 }
@@ -61,16 +61,16 @@ input:focus {
   background: var(--grey-ice-blue);
 }
 
-#lists button:hover, button:hover {
+.lists button:hover, button:hover {
   background: rgba(100, 100, 100, .2);
 }
 
-#lists button:focus {
+.lists button:focus {
   outline:0;
   animation: jello-horizontal 0.9s both;
 }
 
-#lists button {
+.lists button {
   background: inherit;
   border: 2px solid rgba(255,255,255, .5);
   color: rgba(255,255,255, .5);
