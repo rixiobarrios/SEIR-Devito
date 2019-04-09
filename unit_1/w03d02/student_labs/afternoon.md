@@ -1,114 +1,121 @@
+[![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)
 
+# What to Do?
 
-# TO DO APP
+![preview](https://i.imgur.com/usMkA4g.png)
+
+A to do list is a classic app to practice programming languages with. So for tonight's homework, you'll be building a To-Do list app with two columns: one for things to do, and another for things that have been done. You shold use jQuery to give your app functionality.
+
+#### Learning Objectives
+
+- Manipulating the DOM with jQuery and user input
+- Rendering given data 
+
+#### Prerequisites
+
+- jQuery
+- JavaScript
+- HTML DOM
 
 ---
-Title: To-Do List <br>
-Type: Homework<br>
-Duration: lab + hw time<br>
-Creator: Thom Page<br>
-    Modified by: Kristyn Bryan<br>
-    CSS Modernization: Karolin Rafalski<br>
-Competencies: jQuery, Javascript, DOM <br>
+
+## Getting Started
+
+1. In tonight's homework folder, we provide you with a `starter-code` folder that holds a few starter files
+
+    * <b>Provided in the starter code when opening the index.html</b>:
+      - the user should see two columns and an input field.
+      - the user should be able to type a to-do item into an input box.
+      - the user should be able to click an add button next to this input.
+      
+    * <b>Other things provided in the starter code</b>:
+      - styling in the `main.css` file 
+      - an array called `givenToDos` in the `app.js` file
+      - comments inside the `index.html` code to help you keep your classes straight (please give it a look!)
+   
+1. As a challenge, feel free to start from scratch! If you do start from scratch, the only required thing you need to use from the starter code is the `givenToDos` array, so please keep that! 
+
+1. Regardless of what you choose, please complete this assignment using jQuery 
+
+    * Remember to put any code that affects the DOM inside a **window onload** 
+    
+    ```javascript
+    $(() => {
+
+	    // DOM stuff
+
+    })
+    ```
+
+1. As you code, keep in mind the general flow of what is happening. The user makes an action, you run some code in order to process this action, the results of the action are rendered to the page, and then you wait until another action takes place.
+
+## Part One: Rendering Given Data    
+   
+1. Before we actually handle any user input, let's take the data that's been given to us in the `givenToDos` array and display it under the "Things to Do" column
+
+1. Remember that we want our users to be able to move things from the "Things to Do" column to the "Things That are Done" once they're done with a certain to-do item -- so, don't forget to add a "COMPLETED" button on each one! 
+    * Don't worry about the functionality of the button yet, though, we'll add that later! 
+  
+## Part Two: Handling User Input
+
+1. Great, now that the given data is all displayed, let's make it so that our users can add their own to-do's to the list as well. 
+
+1. When the user clicks the `add` button, the input box value should be added to the "Things to Do" column 
+    * Again, don't forget each to-do item needs a "COMPLETED" button!
+
+1. When the user clicks the `add` button, the input should display nicely rather than just text that keeps joining on the same line.
+    * _Hint:_ We have a `givenToDos` array that we were able to display nicely, perhaps consider adding the new information into the array and display all of the items in that array.
+
+1. At this point, the user should be able to see all of the todos that they have created as well as the given todos.
+
+## Part Three: Moving the Todos
+
+1. Now that we've displayed our todos nicely, let's make it so the user can actually complete todos and move them to the "Things That are Done" column
+
+1. When displaying a todo item, we made sure each one also got a "COMPLETED" button -- now let's make sure they have an event listener and handler
+    * _Note:_ Yes! You _can_ include an event listener inside another event handler
+    * The event handler that you add onto the "COMPLETED" button should append the todo item to the completed column AND set the background color of the target to-do-item to `#ED6495`
+      * _Hints:_ `$(event.currentTarget)`, `.parent()`
+      
+## Part Four: Delete
+
+1. Lastly, we want our user to be able to delete a todo item from the app entirely when it's in the completed list 
+
+1. So, when the to-do-item moves to the completed list, the text of the 'COMPLETED' button should change to 'REMOVE'
+
+1. Then, When the 'REMOVE' button is clicked, the target to-do-item should be removed from the DOM
 
 ---
 
-# WHAT TO DO ?
+## Hungry for More? 
 
-![todo](https://i.imgur.com/usMkA4g.png)
+#### Local Storage 
 
+1. The browser has something called [local storage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage). This allows us to cache data in the browser. Using local storage, make this application remember the to-dos that have already been entered in, even if the page is closed.
 
-## To-Do List
-Build a To-Do list app with two columns: one for things to do, and another for things that have been done. Use jQuery to give your app functionality.
+#### Draggable/Droppable
 
-### User Stories
-Your user should be able to:
+1. Look into jQuery's supplemental libraries like jQuery UI's [Draggable and/or Droppable](https://jqueryui.com/droppable/)
 
-* Enter a 'todo' item in the input box, and click the 'add' button to have the todo item render in the to-do-list column.
+#### Styling 
 
-* Click on a button within the to-do-item to move that item over to a 'completed' column.
+1. Style the app from scratch instead of using the starter code 
+1. Make the design responsive!
 
-* Click that same button, after it's been moved to 'completed', to remove the todo item from the page.
+---
 
-## Commits
+## Deliverables
 
-- Make sure to commit after each block of code that you create. Give an appropriate comment.
+1. A todo app built with jQuery and HTML/CSS inside the `starter_code` folder
 
-## Starter code
-To get straight to jQuery, use the starter code and fill in the javascript.
+## Technical Requirements
 
-We've provided you with some simple styling to make it easier for you to get started.
+Your app MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
 
-##### In the starter code:
-1. the user should see two columns and an input field.
-2. the user should be able to type a to-do item into an input box.
-3. the user should be able to click an `add` button next to this input.
+## Submission Guidelines
 
-NOTE: if you want a challenge, feel free to start from scratch!
+- Submit your homework via github issues before the next class starts at 10AM and please don't forget to fill out the form!
 
-## Stuff for you to do:
+---
 
-
-## PART ONE
-
-
-1. To use the starter code, go into the `to_do_app` folder (alternatively, you are welcome to start totally from scratch)
-  - make a list of the ids, classes, and elements that are styled in the css, so you can match it and use the styles
-
-2. Complete this assignment using jQuery
-
-3. Include any code that affects the DOM inside a **window onload**. jQuery has a shorthand for window onload:
-
-```
-$(() => {
-
-	// DOM stuff
-
-})
-```
-Remember the general flow of what is happening. The user makes an action, you run some code in order to process this action, the results of the action are rendered to the page, and then you wait until another action takes place.
-
-## PART TWO
-
-When the user clicks the `add` button, the input box value should be added to their to-do list.
-
-## PART THREE
-When the user clicks the `add` button, the input should display nicely rather than just text that keeps joining on the same line.
-
-* Hint: consider adding the new information into an array of to-dos and display all of the items in that array.
-
-**The user should be able to see all of the todos that they have created.**
-
-## PART FOUR
-
-The user should be able to click 'done' on a todo and have it move to the completed column.
-
-* When you create the todo item, add a button that says 'COMPLETED' to it that has an event listener and handler. Yes! You can include an event listener inside another event handler . . .
-
-* The handler on this 'COMPLETED' button should append the todo item to the completed column.
-
-* Hints: `$(event.currentTarget)`, `.parent()`
-
-* When the button 'COMPLETED' is clicked, set the background color of the target to-do-item to `#ED6495`
-
-
-## PART FIVE - Delete
-
-The user should be able to delete a to-do item from the completed list.
-
-* When the to-do-item moves to the completed list, the text of the 'COMPLETED' button should change to 'REMOVE'
-* When the 'REMOVE' button is clicked, the target to-do-item should be removed from the DOM  
-
-
-# Hungry for More
-
-## Local Storage
-
-The browser has something called [local storage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage). This allows us to cache data in the browser. Using local storage, make this application remember the to-dos that have already been entered in, even if the page is closed.
-
-## Draggable/Droppable
-
-Look into jQuery's supplemental libraries like [Draggable and/or Droppable](https://jqueryui.com/droppable/)
-
-## Lab
-Finish today's labs.
+*Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
