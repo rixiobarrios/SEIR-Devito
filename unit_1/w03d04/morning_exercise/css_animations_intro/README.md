@@ -1,9 +1,10 @@
+![](/ga_cog.png)
 
+---
 Title: Intro to CSS Animations<br>
 Type: Morning Exercise <br>
 Duration: "0:45"<br>
-    Creator: Karolin Rafalski<br>
-    Course: WDIR Space Ghost<br>
+Creator: Karolin Rafalski<br>
 Competencies: CSS animations<br>
 Prerequisites: CSS, HTML <br>
 
