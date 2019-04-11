@@ -1,3 +1,5 @@
+![](/ga_cog.png)
+
 <hr>
 
 Title: Flying Newspaper<br>
@@ -5,17 +7,19 @@ Type: Morning Exercise <br>
 Duration: "0:45"<br>
 Creator: Matt Huntington<br>
 Adapted by: Karolin Rafalski<br>
-Course: WDIr Hopper<br>
 Competencies: CSS Animations<br>
 Prerequisites: CSS, HTML <br>
 <hr>
 
 
-## Make a newspaper (a `<div>` element) fly!
+## FLYING NEWSPAPER
 
-[Original Inspiration](https://www.youtube.com/watch?v=GaiZIulY4EU)
-<br>
-[Karolin's Version](https://youtu.be/V6RqAjbjnU0)
+![](https://imgur.com/GoR8qLN.gif)
+
+Make a 'newspaper' (a `div` element) fly!
+
+> [Original Inspiration](https://www.youtube.com/watch?v=GaiZIulY4EU)<br/>
+> [Karolin's Version](https://youtu.be/V6RqAjbjnU0)
 
 
 ## Choices
@@ -24,25 +28,29 @@ Start from scratch or start with `starter_code`. If you are using the starter co
 ## Setup without starter code:
 1. Create a directory for your `flying_newspaper` in today's `morning_exercise` folder.  
 2. Create an `index.html` and `main.css` files within that folder.
-3. Using **only** HTML and CSS (no JavaScript or jQuery!), make a div with a class of `newspaper`.
-4. Add CSS animations to make it fly like the given example.
+3. Using **only** HTML and CSS (no JavaScript or jQuery!), make a div with a class of `newspaper` amd  add CSS animations to make it fly like the given example!
 
-## My newspaper flies! I'm hungry for more!
-1. Create a nav and make it look similar to [this](http://www.hugeinc.com/)
+## Deliverables
+
+Make a flying newspaper you'd enjoy sharing with the class at the end of this session!
+
+---
+
+## Hungry for more?
+1. Without looking at the source code, try and replicate as many of [these pure CSS nav hover effects](http://ianlunn.github.io/Hover/) as you can!
 
 _or_
 
-2. Create some colored `div` elements and animate each one differently
+2. Create some colored `div` elements and animate each one differently. Just play around and have some fun with animations!
 
-## Deliverable
-Make something you'd enjoy sharing with the class at the end of this session!
+---
 
 ## Resources
 
 ### Links
-[animista](http://animista.net/)
+1. [animista](http://animista.net/)
 
 ### Videos
-[CSS Transform](https://youtu.be/Gu-HBBZLyjg?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
-[CSS Transitions](https://youtu.be/Xu3SrQhtBqw?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
-[CSS Animations](https://youtu.be/9RfHG3K8U_Q?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
+1. [CSS Transform](https://youtu.be/Gu-HBBZLyjg?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
+1. [CSS Transitions](https://youtu.be/Xu3SrQhtBqw?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
+1. [CSS Animations](https://youtu.be/9RfHG3K8U_Q?list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
