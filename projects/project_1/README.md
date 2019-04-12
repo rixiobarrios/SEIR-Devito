@@ -70,7 +70,7 @@ Lastly, the following sites congregates a bunch of API's together, so you can ta
 
 ![](https://i.imgur.com/bzBJdZ5.png)
 
-From there, follow the instructions outlined by github themselves on [github.io](https://pages.github.com/)
+From there, follow the instructions outlined by github themselves on [github.io](https://pages.github.com/) **NOTE: Make sure you follow the User or Organization Site instructions, not the Project Site instructions!**
 
 Please note that you will be using this same repo for creating your portfolio later on. Thus for this project, we suggest that you create a folder within this repo that will contain all your code for your unit 1 app and name it appropriately (make it your app's name, for example `omdb-app`, and _**not**_ something like `unit-one-project`). You can then view your app online by going to your github.io url with `/the-folder-name` tacked on at the end!
 
