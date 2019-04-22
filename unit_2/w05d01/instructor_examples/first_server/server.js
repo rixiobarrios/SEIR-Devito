@@ -15,6 +15,8 @@ app.get('/', (request, response) => {
 // ('/somedata', (req,res) => {}) req,res is the request, response cycle..both are objects
 app.get('/somedata', (req, res) => {
   res.send('<h1>installed nodemon</h1>')
+  // res.json()
+  // res.render()
   // console.log('this is req: ', req)
   // console.log('this is res: ', res)
 })
