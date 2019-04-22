@@ -59,14 +59,14 @@ Bootstrap is a very robust framework! It has pretty much everything that you nee
 1. Go to [Bootstrap's framework page](http://getbootstrap.com/) to get their stylesheets.
 
 >Direct link to documentation:
-https://getbootstrap.com/docs/4.2/getting-started/download/
+https://getbootstrap.com/docs/4.3/getting-started/download/
 
 2. You could download the files (but let's not do that for this exercise):
 ![](https://i.imgur.com/Y2bjh8G.png)
 
 3. Let's use the Bootstrap CDN link to get the style's to our page. Add the CDN link into your `index.html` file
 
-`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">`
+`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
 
 6. Refresh your browser and take a look at what happened after just initially linking Bootstrap.
 
@@ -75,7 +75,7 @@ https://getbootstrap.com/docs/4.2/getting-started/download/
 ## Nav bar
 
 >Direct link to documentation:
-https://getbootstrap.com/docs/4.2/components/navs/
+https://getbootstrap.com/docs/4.3/components/navs/
 
 1. Add the `class="nav"` to the `ul` of your nav bar
 
@@ -90,7 +90,7 @@ https://getbootstrap.com/docs/4.2/components/navs/
 ## Adjust the image
 
 >Direct link to documentation:
-https://getbootstrap.com/docs/4.2/content/images/
+https://getbootstrap.com/docs/4.3/content/images/
 
 1. If we wanted our image to be responsive, we could add the `class="img-fluid"`
 
@@ -99,7 +99,7 @@ https://getbootstrap.com/docs/4.2/content/images/
 ## Container
 
 >Direct link to documentation:
-https://getbootstrap.com/docs/4.2/layout/overview/
+https://getbootstrap.com/docs/4.3/layout/overview/
 
 1. Let's start by wrapping our site content in a container: `class = "container"`. What does this do?
 
@@ -115,7 +115,7 @@ If we want the container to span the entire width of the viewport, we can use `c
 Let's use the built-in grid system that Bootstrap supplies.
 
 >Direct link  to documentation: 
-https://getbootstrap.com/docs/4.2/layout/grid/
+https://getbootstrap.com/docs/4.3/layout/grid/
 
 1. On the three paragraphs below the Example header, let's put `class="row"` on a div that surrounds all three.
 
@@ -126,7 +126,7 @@ https://getbootstrap.com/docs/4.2/layout/grid/
 ## Update a button
 
 >Direct link  to documentation:
-https://getbootstrap.com/docs/4.2/components/buttons/
+https://getbootstrap.com/docs/4.3/components/buttons/
 
 Bootstrap has multiple button options:
 
@@ -159,7 +159,7 @@ Bootstrap has multiple button options:
 #### Style the table
 
 >Direct link  to documentation:
-https://getbootstrap.com/docs/4.2/content/tables/
+https://getbootstrap.com/docs/4.3/content/tables/
 
 1. Add Bootstrap's default table style: `class="table"`
 
@@ -172,7 +172,7 @@ https://getbootstrap.com/docs/4.2/content/tables/
 #### Sections that you want to showcase
 
 >Direct link  to documentation:
-https://getbootstrap.com/docs/4.2/components/jumbotron/
+https://getbootstrap.com/docs/4.3/components/jumbotron/
 
 Bootstrap has something called `jumbotron` which has styling to showcase a section.
 
