@@ -40,7 +40,7 @@ In the `homework` directory for today, create a Javascript file `server.js`. Wri
 * `npm init`. You should receive a `package.json`.
 
 Install express. `npm i express`. Check your files.
-  - _Remember:_ If you have an older npm version below 5.0.0, you need to type `npm install express --save` instead! Refer back to your [notes](../instructor_notes/INTRO_TO_EXPRESS.md) if you need to be reminded of the differences between version 4 and 5  
+  - _Remember:_ If you have an older npm version below 5.0.0, you need to type `npm install express --save` instead! Refer back to your [notes](../instructor_notes/2.%20INTRO_TO_EXPRESS.md) if you need to be reminded of the differences between version 4 and 5  
 
 :elephant: _Hint_: You can check to make sure your installation was successful in one of the following places:
 
