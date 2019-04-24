@@ -212,5 +212,5 @@ In your server the output should look like this:
 
 1. If you haven't already, finish the Biscoff Bakery lab
     - If you finished it, add some styling now that you know how to use public/static files! 
-1. [Super bonus lab 1](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/tree/master/unit_2/w05d02/student_labs/SUPER_BONUS)
-1. [Super bonus lab 2](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/tree/master/unit_2/w05d03/student_labs/SUPER_BONUS)
+1. [Super bonus lab 1](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Devito/tree/master/unit_2/w05d01/student_labs/SUPER_BONUS)
+1. [Super bonus lab 2](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Devito/tree/master/unit_2/w05d02/student_labs/SUPER_BONUS)
