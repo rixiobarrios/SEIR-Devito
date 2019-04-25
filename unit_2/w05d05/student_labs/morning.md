@@ -1,11 +1,6 @@
-# Mongo Lab
-Title: Intergalactic Bounty Hunter Database - Mongo Lab<br>
-Type:Lab<br>
-Duration: 1 + hours <br>
-Creator: Karolin Rafalski <br>
+# Intergalactic Bounty Hunter Database
 
-
-## Intergalactic Bounty Hunter Database
+![](https://snworksceo.imgix.net/car/614a86c8-405f-4fd8-b60d-93998c769661.sized-1000x1000.jpg)
 
 You've been going to meetup events and networking. You've been telling everyone you're so excited to get a dev job that you'll take _any job_.
 
@@ -14,6 +9,8 @@ You run into a shadowy stranger, who asks you three times 'Really? Any job?' and
 The shadowy stranger greets you and says 'Welcome to your new job! You are now our dev who will be building an intergalactic bounty hunter database for us!'
 
 You look around, notice some high end coffee and tea machines, an air hockey table, nap rooms and floor to ceiling windows with a view of outer space. The shadowy stranger takes you to your desk which has a fancy sit-to stand adjustable hight desk with a swing bar, two big monitors, and Herman Miller chair. You say to yourself 'Not bad! Not bad at all!'
+
+---
 
 ## Set up
 
@@ -131,13 +128,15 @@ Update `Sara Lance`'s name to be her superhero alias 'White Canary'
 
 Update Rocket's ship to be `The Milano 2`
 
-### Intermediate Mongo
-Find the INTERMEDIATE_MONGO.md lecture notes in the instructor notes directory. Follow through each of the explanations. Follow the commands and perform appropriate finds after each update call to see the results
+---
+
+## Hungry for More - Intermediate Mongo
+
+Find the [INTERMEDIATE_MONGO.md lecture notes](../instructor_notes/Advanced%20Mongo/2.%20INTERMEDIATE_MONGO.md) in the instructor notes directory. Follow through each of the explanations. Follow the commands and perform appropriate finds after each update call to see the results
 
 - Find the bounties that are greater than `100000`
 - Find the bounties that are less than `1000`
 - Find the bounties that are less than or equal to `1000`
-
 
 - Find the bounty with the hunter `Nebula`
 - Find the bounty with the ship `Waverider` OR `Serenity`
@@ -150,4 +149,3 @@ Find the INTERMEDIATE_MONGO.md lecture notes in the instructor notes directory. 
 - Upserts will insert a value if it doesn't exist, if it does it will update it
 - Try giving a new field of `lastSeen` to Han Solo, with the property `yesterday` set upsert to true
 - Try giving all bounties a new field of `lastSeen` - with a value of `last week` and set upsert to `false`
--
