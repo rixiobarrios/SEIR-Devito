@@ -241,7 +241,7 @@ const manyTweets = [
   {
     title: 'Confusion',
     body: 'Friends, why do you just respond with the word `dislike`? Surely you mean to click the like button?',
-		author: 'Karolin'
+		author: 'Karolin',
     likes: -100
   },
   {
