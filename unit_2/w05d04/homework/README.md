@@ -31,7 +31,7 @@ There are a few requirements to keep in mind:
 Your app should:
 
 	- display a bunch of Pokémon images on the index
-	- have separate show pages for each Pokémon
+	- have separate show pages for each Pokémon, accessible by clicking on a Pokémon's image on the index page
 	- have the ability to add a new Pokémon
 	- have the ability to edit existing Pokémon
 	- have the ability to delete Pokémon
