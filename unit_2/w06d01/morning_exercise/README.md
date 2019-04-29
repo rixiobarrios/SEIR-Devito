@@ -264,6 +264,6 @@ Textarea is essentially just another type of input box, but is not an actual inp
 
 There's an overwhelming amount of form types and attributes that you can use, and we barely scratched the surface today. Text, textarea, password, and submit are the most common that you'll probably use in your apps, but if you'd like to see what else HTML forms have to offer, take a look at the resources below: 
 
-  - [Our student wiki page with a quick cheatsheet](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/wiki/HTML-Forms-Cheatsheet)
+  - [Our student wiki page with a quick cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Devito/wiki/HTML-Forms-Cheatsheet)
   - [W3Schools HTML Forms](https://www.w3schools.com/html/html_forms.asp)
   - [MDN's entry on HTML Forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
