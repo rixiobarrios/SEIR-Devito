@@ -121,10 +121,10 @@ Now the EJS:
     <body>
         <h1>Edit Fruit Page</h1>
         <form>
-    		<!--  NOTE: the form is pre-populated with values for the server-->
-    		Name: <input type="text" name="name" value="<%=fruit.name%>"/><br/>
-    		Color: <input type="text" name="color" value="<%=fruit.color%>"/><br/>
-    		Is Ready To Eat:
+            <!--  NOTE: the form is pre-populated with values for the server-->
+            Name: <input type="text" name="name" value="<%=fruit.name%>"/><br/>
+            Color: <input type="text" name="color" value="<%=fruit.color%>"/><br/>
+            Is Ready To Eat:
             <input type="checkbox" name="readyToEat"
                 <% if(fruit.readyToEat === true){ %>
                     checked
