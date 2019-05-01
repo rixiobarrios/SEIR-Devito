@@ -109,7 +109,7 @@ Let's update our `footer.ejs` file
 
 <hr>
 
-## Got Some Time Left? Let's work on a Hackerrank Challenge!
+## Got Some Time Left? Try out a Hackerrank Challenge!
 <br>
 Some companies use HackerRank challenges as part of their interview process. Try one out to practice!
 
