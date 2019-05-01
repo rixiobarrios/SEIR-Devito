@@ -100,7 +100,7 @@ const app = express()
 ```js
 // Configuration
 const PORT = process.env.PORT
-const mongoURI = process.env.MONGO_URI
+const mongoURI = process.env.MONGODB_URI
 ```
 
 #### SET MIDDLEWARE
