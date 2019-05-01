@@ -15,20 +15,20 @@ const PORT            = process.env.PORT || 3000;
 //___________________
 //Database
 //___________________
-
-mongoURI = process.env.MONGOURI ||'mongodb://localhost/karolin_mongoose_store'
-
-//connect to this database - don't forget to start `mongod`
-mongoose.connect( mongoURI );
-
+const mongoURI = process.env.MONGOURI ||'mongodb://localhost/karolin_mongoose_store'
 //set the connection to constiable for easy access`
 const db = mongoose.connection;
 
+//connect to this database - don't forget to start `mongod`
+mongoose.connect(mongoURI, { useMongoClient: true }, () => {
+	console.log('the connection with mongod is established')
+})
+
 //  use this fancy looking stuff to get more useful error messages in your console
-db.on( 'error' , console.error.bind( console , 'connection error: ' ));
-db.once ( 'open' , function () {
-  console.log( 'DB: Connected' );
-});
+db.on('error', (err) => console.log(err.message + ' is mongod not running?'))
+db.on('connected', () => console.log('mongo connected: ', mongoURI))
+db.on('disconnected', () => console.log('mongo disconnected'))
+
 
 //___________________
 //Controllers
