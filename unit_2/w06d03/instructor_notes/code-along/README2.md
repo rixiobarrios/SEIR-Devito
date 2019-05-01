@@ -195,7 +195,7 @@ sessions.get('/new', (req, res)=>{
     res.render('sessions/new.ejs');
 })
 
-module.exports = router;
+module.exports = sessions;
 ```
 
 **server.js**
