@@ -28,8 +28,8 @@ echo ".env" >> .gitignore;
 npm init -y &&
 npm i dotenv ejs express method-override mongoose;
 mkdir controllers;
-touch controllers/users_controller.js;
-touch controllers/sessions_controller.js;
+touch controllers/users.js;
+touch controllers/sessions.js;
 mkdir models;
 touch models/users.js;
 mkdir views/;
