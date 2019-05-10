@@ -14,6 +14,11 @@
  <h1>Welcome to {{ ctrl.appName }}</h1>
  <!-- clicking on subnmit will trigger ng-submit to call the getMovies() method -->
  <form ng-submit='ctrl.getMovies()'>
+   <input
+     type="text"
+     placeholder='movie title'
+     ng-model='ctrl.movieTitle'
+    />
    <button type='submit'>SUBMIT</button>
  </form>
 

@@ -6,22 +6,33 @@ app.controller('MainController', ['$http', function($http) {
   this.baseURL = 'http://www.omdbapi.com/?';
   this.apikey = 'apikey=' + 'afe230c0';
   this.query = 't=';
-  this.movieTitle = 'Eraserhead';
-  this.searchURL = this.baseURL + this.apikey + '&' + this.query + this.movieTitle;
-  console.log(this.searchURL)
-
+  // create the movieTitle variable that coincides with ng-model
+  // when ng-submit is executed this will update movieTitle with the value
+  // typed into the input
+  this.movieTitle = '';
+  this.searchURL = this.baseURL + this.apikey + '&' + this.query
+  // console.log(this.searchURL)
+  
   // is angular data binding one way or two way?
   this.movies = []
-  // use the $http service to make an AJAX request
+  //
+  // this.movieTitle = ''
+  // creating a getMovies method that will make an API call
   this.getMovies = () => {
+  // use the $http service to make an AJAX request just as we used $.ajax in jQuery
     $http({
+      // this is the method were using..possible to use POST, PUT, DELETE
+      // app.get('/'), app.delete('/:id')
       method: 'GET',
-      url: this.searchURL
+      // the url for that route
+      url: this.searchURL + this.movieTitle
+      // .then is run once the call is successful..$http returns a Promise
     }).then( response => {
       console.log(response.data)
+      // store the data inside of this.movies..once this.movies is updated this
+      // triggers react to update the DOM
       this.movies = [response.data]
-    }, error => {
-      console.log('this is error', error)
+      // .catch handles any errors in case the AJAX call failed
     }).catch( err => console.log('Catch ', err))
   }
 }]);
