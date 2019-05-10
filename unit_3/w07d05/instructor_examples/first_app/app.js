@@ -2,9 +2,11 @@
 const app = angular.module('MyApp', [])
 // create our first controller
 app.controller('MainController', function() {
+  // controller method
   this.toggleInfo = () => {
     this.showInfo = !this.showInfo
   }
+
   this.hello = 'oh hai!'
   this.showImages = false;
   this.showInfo = false;

@@ -12,8 +12,9 @@ app.controller('MainController', ['$http', function($http) {
   this.movieTitle = '';
   this.searchURL = this.baseURL + this.apikey + '&' + this.query
   // console.log(this.searchURL)
-  
-  // is angular data binding one way or two way?
+
+  // is angular data binding one way or two way?...TWO WAY
+  // when this.movies is updated it triggers Angular to update the html
   this.movies = []
   //
   // this.movieTitle = ''
