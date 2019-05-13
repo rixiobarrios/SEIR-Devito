@@ -165,10 +165,10 @@ This is a **two-night** homework, due before class on Wednesday at 10 AM. You wi
 
 - **On the first night of thie homework, you should work on:** 
   - A full CRUD express API for bookmarks
-  - A single-page-app built with Angular with an index that shows all bookmarks from your API and the ability to create new bookmarks 
+  - A single-page-app built with Angular with the ability to create new bookmarks 
   
 - **On the second night of this homework, you should work on:**
-  - Adding onto your Angular SPA the ability to delete a bookmark and update a bookmark 
+  - Adding onto your Angular SPA the ability to see all bookmarks, delete a bookmark, and edit a bookmark 
   - Adding some styling! 
   
 ---
