@@ -117,7 +117,7 @@ This will give you the option to copy the link to your clipboard and make it rea
 - REMEMBER: This should be from YOUR repo (the link to be copied should be `git@github.com:your-github-handle/hfb.git`)
 
 ###### Command line:
-- Navigate to a directory **OUTSIDE** of wdi-remote-matrix
+- Navigate to a directory **OUTSIDE** of SEIR-Devito
 `mkdir` (if you need to)
 - ```$git clone `git@github.com:your-github-handle/hfb.git` ``` (use `⌘V` to paste the url from github)
 - The above command should create a new folder inside your current directory and make copy of everything in the Happy Fun Ball remote repository, locally (on your computer) and initialize git.
