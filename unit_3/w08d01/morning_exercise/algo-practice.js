@@ -5,11 +5,11 @@
 // CREATE 2 variables called evens and odds
 // SET both variable to empty strings
 // ITERATE over the length of the word
-// IF the current letter is at an even position
-//   THEN append the it to the evens variable
-// ELSE
-//   append the letter to the odds variable
-// END IF
+  // IF the current letter is at an even position
+  //   THEN append the it to the evens variable
+  // ELSE
+  //   append the letter to the odds variable
+  // END IF
 // RETURN the evens and odds strings JOINED together with an empty space between them
 
 let currentWord = 'Hacker'
@@ -19,7 +19,7 @@ function oddsAndEvens(word) {
 }
 
 // Two Sum
-// CREATE a ariable called output
+// CREATE a variable called output
 // SET the output variable to an empty array
 // ITERATE over the input array INITIALIZING i to 0
 //   ITERATE over the input array again INITIALZING j = i + 1
@@ -43,6 +43,7 @@ function twoSum(arr,num){
 // SET the BASE case
 //   IF the current word's length is EQUAL to 0
 //     THEN RETURN the reversed word variable
+//   END IF
 // SET the RECURSIVE case
 //    CREATE a variable called newWord
 //    SET the variable to the word MINUS it's first letter
