@@ -20,7 +20,7 @@ Using collaboration via GitHub, each pair will create a new repo **outside the c
 - make your functioning server.js file
   - don't forget your npm modules etc...
 - make sure everyone has a very basic server running via one member writing the `server.js` and sharing the file via GitHub/git work flow
-- You will have two branches to work with for the morning exercise. The `master` branch is 'production quality' code it should be bug and error free - only push functioning code here. You will also have a dev branch - members should be merging their code together on the `dev` branch - then checking that their code works together. If it does, push it to `master` if it doesn't work, fix the code and try again.
+- You will have two branches to work with for this assignment. The `master` branch is 'production quality' code it should be bug and error free - only push functioning code here. You will also have a dev branch - members should be merging their code together on the `dev` branch - then checking that their code works together. If it does, push it to `master` if it doesn't work, fix the code and try again.
 ## Setup
 ### Make a plan/assign tasks
 - Let's read the homework together
