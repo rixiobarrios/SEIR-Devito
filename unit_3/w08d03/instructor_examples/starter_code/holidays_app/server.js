@@ -19,7 +19,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true },
 db.on('error', err => console.log(err.message + ' is Mongod not running?'))
 db.on('disconnected', () => console.log('mongo disconnected'))
 
-// Middleware
+// Middleware - an assembly line
 app.use(express.urlencoded({ extended: false }))// extended: false - does not allow nested objects in query strings
 app.use(express.json())// returns middleware that only parses JSON
 
