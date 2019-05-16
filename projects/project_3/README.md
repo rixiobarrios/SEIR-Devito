@@ -108,7 +108,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 ## Meetings with instructors
 
-**Friday, May 17 - Mandatory**<br>
+**Today, May 16 OR Friday, May 17 - Mandatory**<br>
 Your group will meet with your dedicated project instructor for 15 minutes to get your app idea approved. Be sure to write out what features you will need to build in order to meet MVP and some stretch goal ideas.
 
 ## How to Submit Your Project
