@@ -105,21 +105,19 @@ For building smaller applications and don't need all the fancy stuff that comes 
 
 ![in Progress](https://i.imgur.com/uVHY2Ml.png)
 
-### Github Issues & Waffle.io
+### Github Issues & Zenhub
 
-You can choose to just use the issues or you can work with it through [Waffle.io](https://waffle.io/) which is a more visually appealing site (closer to what you see with Jira and Trello).
+You can choose to just use the issues or you can work with it through [Zenhub](https://www.zenhub.com/) which is a more visually appealing site (closer to what you see with Jira and Trello).
 
 ![what it looks like on Github](https://i.imgur.com/ZFtuGX5.png)
 
-![waffle screen](https://i.imgur.com/cy2nesq.png)
-
-### Github & Zenhub
-
-Similar to the relationship between Waffle.io and Github, [Zenhub](https://www.zenhub.com/) is another Agile project management tool that you can use.
-
 ![zenhub](https://i.imgur.com/2LTpOKA.png)
 
-<hr>
+### Github Projects
+
+Or, Github itself actually has its own version of a Kanban board built into every repo under the Projects Tab! 
+
+![](https://i.imgur.com/fhSr8uU.png)
 
 ## :boom: User Stories
 
@@ -190,7 +188,6 @@ You're creating a dating app with a small group!  How do you get started?!
 - [Jira](https://www.atlassian.com/software/jira)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
 - [Zenhub](https://www.zenhub.com/)
-- [Waffle.io](waffle.io)
 - [Comparison of Scrum software](https://en.wikipedia.org/wiki/Comparison_of_Scrum_software)
 
 ## References
