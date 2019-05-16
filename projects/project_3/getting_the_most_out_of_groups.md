@@ -67,7 +67,7 @@
 					- what you might do in a few years
 						- management?
 						- can you grow?
-							- Joe went to senior in just a couple years because of these skills
+							- I know people who went to senior in just a couple years because of these skills
 1. At this point I may be interested in seeing the site.  Demo the site:
 	- What you worked on
 		- Don't take credit for someone else's work.
@@ -107,7 +107,7 @@
 					- check in to make sure everyone is on track
 					- escalate any blockers
 	- Managing personalities/keeping the group together and happy
-		- This is ann exercise in self restraint
+		- This is an exercise in self restraint
 		- Always monitor feelings for stress
 
 ## Remember: If it sucks, rejoice!  You have something to talk about.
