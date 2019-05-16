@@ -5,7 +5,7 @@
 ## Attendance
 There are two mandatory attendance checks during project week, but as always please make sure you're working on your project every day!
 
-  -**Friday, May 17**: There will be a CS morning exercise as well as a short lesson on additional angular topics starting at 10:00 AM ET
+  - **Friday, May 17**: There will be a CS morning exercise as well as a short lesson on additional angular topics starting at 10:00 AM ET
   - **Tuesday, May 21**: You're required to show up to Outcomes at 4:30PM ET
   - **Wednesday, May 22**: Project presentation day! You're required to be in the class zoom starting at 10:00 AM ET
 
