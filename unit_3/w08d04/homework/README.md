@@ -58,13 +58,10 @@ _Stretch Goal:_ As a user, I should only be able to create, edit, and delete boo
 
 1. A bookmarks app that meets all the MVP requirements outlined above.
 
-## Technical Requirements
-
-1. Your app MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
 
 ## Submission Guidelines
 
-- Submit your homework via github issues before the next class starts at 10AM and please don't forget to fill out the form!
+- This homework is **optional**, so you are not required to submit it. If you would like our homework grader to take a look or if you have any questions, then feel free to submit an issue as usual!
 
 ---
 
