@@ -48,7 +48,7 @@ There will be stuff like `rbx` and `jruby`, we are only interested in the ones t
 
 Get the version of Ruby before `-dev`
 
-1. `$ rbenv install 2.5.3`
+1. `$ rbenv install 2.6.3`
 
 * There is no way within rbenv just to get the latest stable version
 * You **must** install Ruby 2.2.2 or greater for Rails 5.
@@ -56,7 +56,7 @@ Get the version of Ruby before `-dev`
 
 > ruby-build: use readline from homebrew
 >
-> Installed ruby-2.5.3 to /usr/local/var/rbenv/versions/2.5.3
+> Installed ruby-2.6.3 to /usr/local/var/rbenv/versions/2.5.3
 
 ## View Installed Versions of Ruby
 
