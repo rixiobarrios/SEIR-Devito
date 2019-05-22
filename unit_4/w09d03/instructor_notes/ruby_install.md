@@ -56,7 +56,7 @@ Get the version of Ruby before `-dev`
 
 > ruby-build: use readline from homebrew
 >
-> Installed ruby-2.6.3 to /usr/local/var/rbenv/versions/2.5.3
+> Installed ruby-2.6.3 to /usr/local/var/rbenv/versions/2.6.3
 
 ## View Installed Versions of Ruby
 
