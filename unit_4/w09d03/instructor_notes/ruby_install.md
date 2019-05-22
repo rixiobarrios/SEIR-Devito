@@ -89,9 +89,8 @@ IF NOT
 
 1. `$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 1. `$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
+1. CLOSE AND RESTART TERMINAL
 1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.6.3p301` or somesuch
-
-**CLOSE AND RESTART TERMINAL**
 
 ## Install a gem
 
