@@ -88,10 +88,10 @@ Get the version of Ruby before `-dev`
 IF NOT
 
 1. `$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
-	* (replace `.bash_profile` with `.zshrc` if you're using zsh)
 1. `$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
-	* (replace `.bash_profile` with `.zshrc` if you're using zsh)
 1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.6.3p301` or somesuch
+
+**CLOSE AND RESTART TERMINAL**
 
 ## Install a gem
 
