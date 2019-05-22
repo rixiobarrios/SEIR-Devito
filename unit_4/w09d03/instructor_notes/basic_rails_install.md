@@ -96,6 +96,7 @@ check: http://localhost:3000.  You should get an error:
 ```
 ^c
 rails db:create
+rails s
 ```
 
 check: http://localhost:3000
