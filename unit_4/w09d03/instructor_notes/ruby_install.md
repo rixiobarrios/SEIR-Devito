@@ -92,22 +92,7 @@ IF NOT
 1. CLOSE AND RESTART TERMINAL
 1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.6.3p301` or somesuch
 
-## Install a gem
-
-Gems are like NPM packages for Ruby, but they're installed globally, as opposed to multiple times for each application that you build
-
-1. List gems with `gem list`
-1. Run `gem install pry` to install a gem called pry.  It's a ruby REPL command
-1. Run `rbenv rehash` to tell computer we've installed a new gem
-1. List gems with `gem list` look for `pry`
-1. Rub `pry` to start pry command
-1. Inside pry type `2 + 2`
-1. If that works, type quit
-
-Note: Might need to update the gem manager with `gem update --system`
-
-
-## Install Rails 5.2 beta
+## Install Rails
 
 1. Run `gem install rails` to install the rails commands
 2. `rbenv rehash`
