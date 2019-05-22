@@ -73,17 +73,17 @@ Get the version of Ruby before `-dev`
 
 ## Switch RBENV to a different Version of Ruby
 
-1. `$ rbenv global 2.5.3`
-	* Check with `rbenv versions`. Asterisk should be next to 2.5.3
+1. `$ rbenv global 2.6.3`
+	* Check with `rbenv versions`. Asterisk should be next to 2.6.3
 1. `$ rbenv rehash` to tell computer we've switch versions of ruby
-	* Confirm switch again with `rbenv versions` `* 2.5.3`
+	* Confirm switch again with `rbenv versions` `* 2.6.3`
 
 
 **CLOSE AND RESTART TERMINAL**
 
 ## Update Environment to use new Ruby
 
-1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.5.3p111` or somesuch
+1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.6.3p111` or somesuch
 
 IF NOT
 
@@ -91,7 +91,7 @@ IF NOT
 	* (replace `.bash_profile` with `.zshrc` if you're using zsh)
 1. `$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
 	* (replace `.bash_profile` with `.zshrc` if you're using zsh)
-1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.5.3p301` or somesuch
+1. Run `ruby -v` and confirm ruby version _now in use by the system_ is `2.6.3p301` or somesuch
 
 ## Install a gem
 
