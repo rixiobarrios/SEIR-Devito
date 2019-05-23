@@ -29,7 +29,7 @@ puts "You wrote: #{input}"
 `gets` also includes the newline char `\n`, therefore a check on the input will need to include it:
 
 ```ruby
-if input == "something\n" puts "YOU WROTE SOMETHING"
+puts "YOU WROTE SOMETHING" if input == "something\n" 
 ```
 
 Alternatively, we can use `.chomp` to remove the newline char.
