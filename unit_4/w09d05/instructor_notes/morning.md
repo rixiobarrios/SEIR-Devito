@@ -23,7 +23,7 @@ This morning you will each get a method to explore. Your job is to look in the R
 
 You'll have 15 minutes to research and prepare. You will then take turns sharing your screen and presenting your findings to the class. When you are not presenting, it's your job to listen, learn, take notes, and ask questions.
 
-[Google Sheet with assignments](https://docs.google.com/spreadsheets/d/1Fz6gSaizPV-zEYTlxpJwA9u4x5rQW0o44DYtb5X0_aI/edit?usp=sharing)
+[Google Sheet with assignments](https://docs.google.com/spreadsheets/d/19ZXllWJ3RwMbeCC1aB9eDEpiI8t8kbQVQVWWo7D4S0M/edit#gid=0)
 
 [String](http://ruby-doc.org/core-2.3.0/String.html)
 
