@@ -126,9 +126,6 @@ The Universe has ended
 
 ## Hungry for More?
 
-### Class Methods and 'Self'
-Watch the short video [here](https://www.youtube.com/watch?v=0r93ZhzpeqI). 8 mins 28 seconds.
-
 ### Exercises:
 * Experiment with `self`
   - Add a _class_ method `self.what_is_self` to your Muppet class and have it put `self`.    
