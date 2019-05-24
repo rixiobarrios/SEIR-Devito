@@ -1,31 +1,18 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+![ga](/ga_cog.png)
 
+# Ruby Classes
 
----
-Title: Ruby classes <br>
-Creator: Thom Page <br>
-Modified by: Karolin Rafalski <br>
-Competencies: Ruby classes<br>
+_Remember:_
 
----
-
-## RUBY CLASSES
-
-Remember:
-
-1. Ruby objects are created by Ruby classes
-
-2. A Ruby class is a template for creating a Ruby object
-
-3. A Ruby object contains methods from its class and maintains its own state
-
-Make an object from a class by using
-
+>- Ruby objects are created by Ruby classes
+>- A Ruby class is a template for creating a Ruby object
+>- A Ruby object contains methods from its class and maintains its own state
+>- You can create an object from a class by using:
 ```ruby
 some_new_object = SomeClass.new (optional arguments)
 ```
 
-# 1. Classes
+### Classes
 
 Watch the optional short video [here](https://www.youtube.com/watch?v=mrFq-ETuUeo&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=7). 6 mins 23 seconds.
 
@@ -45,7 +32,7 @@ Watch the optional short video [here](https://www.youtube.com/watch?v=mrFq-ETuUe
 ```
 <br>
 
-# 2. Methods
+### Methods
 
 Watch the optional short video here [here](https://www.youtube.com/watch?v=kXJbAPnONV8&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=6). 8 mins 22 seconds.
 
@@ -72,22 +59,19 @@ q.honk
 <br>
 
 
-# 3. Inheritance
+### Inheritance
 Watch the short video [here](https://www.youtube.com/watch?v=FmZT4SUC5n0&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=5). 6 mins 56 seconds.
 
-
-## Exercises:
+#### Exercises:
 1. Create a class called `Dessert` that has instance variables of `@name` and `@sugar_content`
 2. Give it an instance method of `eat` that puts `"Yum! This #{name} is sooooo delicious!"`
 3. Make two new classes called `Pie` and `DeepFriedDessert` that inherit from `Dessert`
 4. Give the `DeepFriedDessert` its own `eat` method that instead puts `"Yum! This #{name} is sooo...ack! ugh! *heart-attack*"`
 5. Make a new class `IceCream` that inherits from `Dessert` use `super` to get the instance variables of `@name` and `@sugar-content`. Also give `IceCream` its own unique instance variable of `@toppings`
 
-# 4. The Universe
+### The Universe
 
-#### Reps with Classes
-
-## Universe Part One
+#### Universe Part One
 
 What's in a Class? A class can contain any number of variables and any number of methods. That is, any number of things and any number of actions. Therefore, let's make a Universe simulator! ;)
 
@@ -106,8 +90,7 @@ What's in a Class? A class can contain any number of variables and any number of
 
 7. Make a method called `create` that takes a parameter `new_item` and will add the new item to the universe (in the `@items` array). If `@conservation = true` then one random item in the universe is *replaced* by the new thing. If not, then a new thing is added to the `@items` array.
 
-
-## Universe Part Two
+#### Universe Part Two
 
 8. While `@conservation` is true, run the `create` method to add a "mosquito" to your universe. Keep running it until all of the items in your universe are mosquitoes (they should be randomly replaced). You now have a mosquito universe. :(
 
@@ -117,9 +100,7 @@ What's in a Class? A class can contain any number of variables and any number of
 
 11. Make a method called `energy_conservation` that changes `conservation` from `true` to `false` if all items in the `@items` array are identical. Hint: check out the `.uniq` method.
 
-
-
-## Universe Part Three
+#### Universe Part Three
 
 12. Make a method called `crunch?` wherein, if `expanding` equals `false`, goes through each item in the `@items` array, sets it to `nil` and prints a string saying the name of the item and that it has been crunched due to gravity. When the entire contents of the array are `nil`, set the array itself to `nil` and print "The Universe has ended." If the universe has ended, set `@crunched` to `true`
 
@@ -145,14 +126,14 @@ The Universe has ended
 
 ```
 
+---
 
+## Hungry for More?
 
-# HUNGRY FOR MORE?
-
-# 5. Class Methods and 'Self'
+### Class Methods and 'Self'
 Watch the short video [here](https://www.youtube.com/watch?v=0r93ZhzpeqI). 8 mins 28 seconds.
 
-## Exercises:
+### Exercises:
 * Experiment with `self`
   - Add a _class_ method `self.what_is_self` to your Muppet class and have it put `self`.    
   - Add an _instance_ method `what_is_self` to your Muppet class and have it put `self`.    
