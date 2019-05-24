@@ -12,7 +12,7 @@ _Remember:_
 some_new_object = SomeClass.new (optional arguments)
 ```
 
-### Classes
+## Classes
 
 Watch the optional short video [here](https://www.youtube.com/watch?v=mrFq-ETuUeo&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=7). 6 mins 23 seconds.
 
@@ -30,9 +30,8 @@ Watch the optional short video [here](https://www.youtube.com/watch?v=mrFq-ETuUe
 ```
   ['Belted Kingfisher', 'Yellow-Billed Cuckoo', 'White-Cheeked Pintail', 'Cinnamon Teal', 'Lesser Scaup', 'Bufflehead', 'Common Goldeneye', 'Fulvous Whistling Duck', 'Hooded Merganser', 'White-Winged Scoter', 'Chimney Swift', 'Rufous Hummingbird', 'Chuck-Wills-Widow', 'Whip-Poor-Will', 'Albatross', 'Ruddy Turnstone', 'Piping Plover', 'Killdeer', 'Laughing Gull', 'Marbled Godwit', 'Least Tern', 'New World Warbler']
 ```
-<br>
 
-### Methods
+## Methods
 
 Watch the optional short video here [here](https://www.youtube.com/watch?v=kXJbAPnONV8&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=6). 8 mins 22 seconds.
 
@@ -56,10 +55,7 @@ q.honk
   - Add a `fly` method that puts `"Flap! #{name} is taking flight!"`. Test that it works.
 4. Make your bird's `adjective` and `name` accessible. Test that this works.
 
-<br>
-
-
-### Inheritance
+## Inheritance
 Watch the short video [here](https://www.youtube.com/watch?v=FmZT4SUC5n0&t=0s&list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo&index=5). 6 mins 56 seconds.
 
 #### Exercises:
@@ -69,7 +65,7 @@ Watch the short video [here](https://www.youtube.com/watch?v=FmZT4SUC5n0&t=0s&li
 4. Give the `DeepFriedDessert` its own `eat` method that instead puts `"Yum! This #{name} is sooo...ack! ugh! *heart-attack*"`
 5. Make a new class `IceCream` that inherits from `Dessert` use `super` to get the instance variables of `@name` and `@sugar-content`. Also give `IceCream` its own unique instance variable of `@toppings`
 
-### The Universe
+## The Universe
 
 #### Universe Part One
 
