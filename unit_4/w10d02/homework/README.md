@@ -30,6 +30,11 @@ Follow the [README.md](nfl/README.md) in the nfl folder and put your answers in 
 
 Please fill out [this form](https://forms.gle/pQK6GoXLjLkrxCBX6) to leave some feedback on the paired programming morning exercises. 
 
+## Hungry for More? 
+
+- Do both the hungry for more sections in the Carmen Sandiego and NFL README's
+- [Try out the airports lab!](../student_labs/afternoon)
+
 ---
 
 ## Submission Guidelines
