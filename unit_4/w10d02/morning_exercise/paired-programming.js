@@ -1,7 +1,7 @@
 /*
 
   FORK AND CLONE THE BELOW CODEPEN 
-  CODEPEN: https://codepen.io/jkeohan/pen/jozOBy?editors=0010
+  CODEPEN: https://codepen.io/jkeohan/pen/QRBOvR?editors=0010
 
   UPDATE THE SPREADSHEET BELOW WITH YOUR 
   NAMES AND LINK TO FORKED CODEPEN: https://docs.google.com/spreadsheets/d/1wcXBzq_nwRtjixTg3sa6rxpBPjLpiBC55N0bclgym04/edit?usp=sharing
