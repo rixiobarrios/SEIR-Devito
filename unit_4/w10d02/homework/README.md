@@ -26,6 +26,10 @@ This assignment will give you more practice with queries, and get you to deal wi
 
 Follow the [README.md](nfl/README.md) in the nfl folder and put your answers in the `nfl.sql` file.
 
+## Part 3: Feedback! 
+
+Please fill out [this form](https://forms.gle/pQK6GoXLjLkrxCBX6) to leave some feedback on the paired programming morning exercises. 
+
 ---
 
 ## Submission Guidelines
