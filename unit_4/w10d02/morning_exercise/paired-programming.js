@@ -24,27 +24,25 @@ let numsArray = [5,4,3,2,1]
 
 console.log(bubbleSort(numsArray))
 
-function bubbleSort(array) {
-// PSEUDOCODE HAS BEEN PROVIDED
-// HINT: THE INITIAL LOOP WILL BE A DO/WHILE
+  // PSEUDOCODE HAS BEEN PROVIDED
+  // HINT: THE INITIAL LOOP WILL BE A DO/WHILE
 
-// LOOP using a looping construct that runs the codeblock at least once
-// before it checks it's conditional logic... (hence DO/WHILE)
-  // SET a variable called swapHappened to false
-  // LOOP again based on the length of the array
-  //   IF the the element as position i is greater than i + 1
-  //     THEN 
-  //       SET a variable called temp to the element at position i
-  //       SET the element at position i to the elements value a position i + 1
-  //       SET the element at position i + 1 to temp
-  //       SET swapHappened to TRUE
-  //   END IF
-  // END LOOP
-// WHILE swapHappened is true
-//  RERUN the code block
-// END WHILE
-// RETURN array
-}
+  // LOOP using a looping construct that runs the codeblock at least once
+  // before it checks it's conditional logic... (hence DO/WHILE)
+    // SET a variable called swapHappened to false
+    // LOOP again based on the length of the array
+    //   IF the the element at position i is greater than i + 1
+    //     THEN 
+    //       SET a variable called temp to the element at position i
+    //       SET the element at position i to the elements value a position i + 1
+    //       SET the element at position i + 1 to temp
+    //       SET swapHappened to TRUE
+    //   END IF
+    // END LOOP
+  // WHILE swapHappened is true
+  //  RERUN the code block
+  // END WHILE
+  // RETURN array
 
 // ************************************//
 // ODDS AND EVENS
