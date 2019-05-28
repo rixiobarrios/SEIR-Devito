@@ -39,6 +39,7 @@ function bubbleSort(array) {
   //       SET the element at position i + 1 to temp
   //       SET swapHappened to TRUE
   //   END IF
+  // END LOOP
 // WHILE swapHappened is true
 //  RERUN the code block
 // END WHILE
