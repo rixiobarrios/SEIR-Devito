@@ -53,10 +53,37 @@
 | w07d1 |[](./unit_2/w07d01/morning_exercise)| [](./unit_2/w07d01/instructor_notes)| [](./unit_2/w07d01/student_labs)|[](./unit_2/w07d01/homework)|
 | w07d2 |[](./unit_2/w07d02/morning_exercise)| [](./unit_2/w07d02/instructor_notes)| [](./unit_2/w07d02/student_labs)|[](./unit_2/w07d02/homework)|
 | w07d3 |[](./unit_2/w07d03/morning_exercise)| [](./unit_2/w07d03/instructor_notes)| [](./unit_2/w07d03/student_labs)|[](./unit_2/w07d03/homework)|
-| w07d4 |[](./unit_2/w07d04/morning_exercise)| [](./unit_2/w07d04/instructor_notes)| [](./unit_2/w07d04/student_labs)|[](./unit_2/w07d04/homework)|
 
 ### Unit 3
+| Day | Morning Exercise | Lectures | Labs | Homework |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| w07d4 |[](./unit_2/w07d04/morning_exercise)| [](./unit_2/w07d04/instructor_notes)| [](./unit_3/w07d04/student_labs)|[Videos](./unit_3/w07d04/homework)|
+| w07d5 |[N/A](./unit_3/w07d05/morning_exercise)| [Intro to Angular, AJAX to 3rd Party](./unit_3/w07d05/instructor_notes)| [New Data Representation](./unit_3/w07d05/student_labs)|[Angular Basics (Fast Lane & jService)](./unit_3/w07d05/homework)|
+| w08d1 |[Paired Programming](./unit_3/w08d01/morning_exercise)| [Build an Express API, Consuming an Express API with Angular (Create)](./unit_3/w08d01/instructor_notes)| [Animal Shelter pt.1](./unit_3/w08d01/student_labs)|[Bookmark'd](./unit_3/w08d01/homework)|
+| w08d2 |[Happy Fun Ball (Git Branching/Merging)](./unit_3/w08d02/morning_exercise)| [Consuming an Express API with Angular (Read, Edit, Delete)](./unit_3/w08d02/instructor_notes)| [Animal Shelter pt.2](./unit_3/w08d02/student_labs)|[Bookmark'd con't., finish HFB](./unit_3/w08d02/homework)|
+| w08d3 |[Paired Programming](./unit_3/w08d03/morning_exercise)| [Full CRUD Build](./unit_3/w08d03/instructor_notes)| [N/A](./unit_3/w08d03/student_labs)|[Coder's Choice](./unit_3/w08d03/homework)|
+| w08d4 |[Project Management](./unit_3/w08d04/morning_exercise)| [MEAN Stack Auth](./unit_3/w08d04/instructor_notes)| [Animal Shelter Con't](./unit_3/w08d04/student_labs)|[N/A](./unit_3/w08d04/homework)|
+| w08d5 |[Paired Programming](./unit_3/w08d05/morning_exercise)| [AngularJS Potpurri](./unit_3/w08d05/instructor_notes)| [](./unit_3/w08d05/student_labs)|[](./unit_3/w08d05/homework)|
+| w09d1 |[](./unit_3/w09d01/morning_exercise)| [](./unit_3/w09d01/instructor_notes)| [](./unit_3/w09d01/student_labs)|[](./unit_3/w09d01/homework)|
+| w09d2 |[](./unit_3/w09d02/morning_exercise)| [](./unit_3/w09d02/instructor_notes)| [](./unit_3/w09d02/student_labs)|[](./unit_3/w09d02/homework)|
 
 ### Unit 4 
+| Day | Morning Exercise | Lectures | Labs | Homework |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| w09d3 |[](./unit_4/w09d03/morning_exercise)| [Setup for Ruby / Rails / Postgres](./unit_4/w09d03/instructor_notes)| [](./unit_4/w09d03/student_labs)|[Ruby Tutorials](./unit_4/w09d03/homework)|
+| w09d4 |[SASS](./unit_4/w09d04/morning_exercise)| [Intro to Ruby, Ruby Blocks, Ruby Enumerables](./unit_4/w09d04/instructor_notes)| [JS/Ruby - Look at the Differences](./unit_4/w09d04/student_labs)|[Ruby Basics](./unit_4/w09d04/homework)|
+| w09d5 |[Paired Programming](./unit_4/w09d05/morning_exercise)| [Ruby Methods Teachbacks, Ruby Classes](./unit_4/w09d05/instructor_notes)| [Ruby Drills](./unit_4/w09d05/student_labs)|[Ruby Blackjack](./unit_4/w09d05/homework)|
+| w10d1 |[](./unit_4/w10d01/morning_exercise)| [](./unit_4/w10d01/instructor_notes)| [](./unit_4/w10d01/student_labs)|[](./unit_4/w10d01/homework)|
+| w10d2 |[Paired Programming](./unit_4/w10d02/morning_exercise)| [SQL Basics](./unit_4/w10d02/instructor_notes)| [Computers and Televisions, Airports and Airplanes](./unit_4/w10d02/student_labs)|[Carmen Sandiego and NFL](./unit_4/w10d02/homework)|
+| w10d3 |[Paired Programming](./unit_4/w10d03/morning_exercise)| [Intro to Rails, Full CRUD on People](./unit_4/w10d03/instructor_notes)| [Full CRUD on Locations and Companies](./unit_4/w10d03/student_labs)|[HELLO](./unit_4/w10d03/homework)|
+| w10d4 |[Paired Programming](./unit_4/w10d04/morning_exercise)| [One to Many Relationship - Add Foreign Key Column, Expand Foreign Key to an Object](./unit_4/w10d04/instructor_notes)| [Stock Prices Database](./unit_4/w10d04/student_labs)|[Glitch in the Office](./unit_4/w10d04/homework)|
+| w10d5 |[Paired Programming](./unit_4/w10d05/morning_exercise)| [One to Many Relationship - self.find, self.all](./unit_4/w10d05/instructor_notes)| [Books App](./unit_4/w10d05/student_labs)|[Art Museum Database](./unit_4/w10d05/homework)|
+| w11d1 |[Paired Programming](./unit_4/w11d01/morning_exercise)| [React Basics, Components, Props, Control Flow](./unit_4/w11d01/instructor_notes)| [React Static Dashboard, Korilla Receipts](./unit_4/w11d01/student_labs)|[React Roasts](./unit_4/w11d01/homework)|
+| w11d2 |[N/A](./unit_4/w11d02/morning_exercise)| [React Events, Children, State, State and Children](./unit_4/w11d02/instructor_notes)| [React Tea Shop, Heirloom Furniture](./unit_4/w11d02/student_labs)|[Heirloom Furniture and Dr. Who's Police Box](./unit_4/w11d02/homework)|
+| w11d3 |[Paired Programming](./unit_4/w11d03/morning_exercise)| [React Refs, Children, AJAX](./unit_4/w11d03/instructor_notes)| [Audubon Society, React Taco](./unit_4/w11d03/student_labs)|[jService React Style](./unit_4/w11d03/homework)|
+| w11d4 |[](./unit_4/w11d04/morning_exercise)| [Integrate React with Rails](./unit_4/w11d04/instructor_notes)| [](./unit_4/w11d04/student_labs)|[](./unit_4/w11d04/homework)|
+| w11d5 |[](./unit_4/w11d05/morning_exercise)| [](./unit_4/w11d05/instructor_notes)| [](./unit_4/w11d05/student_labs)|[](./unit_4/w11d05/homework)|
+| w12d1 |[](./unit_5/w12d01/morning_exercise)| [](./unit_5/w12d01/instructor_notes)| [](./unit_5/w12d01/student_labs)|[](./unit_5/w12d01/homework)|
+| w12d2 |[](./unit_5/w12d02/morning_exercise)| [](./unit_5/w12d02/instructor_notes)| [](./unit_5/w12d02/student_labs)|[](./unit_5/w12d02/homework)|
 
 ### Unit 5
