@@ -9,7 +9,7 @@ Now that we've got Rails up and running and connected it to our database, we'll 
 Open a postgres shell and connect to the `contacts_development` database that rails created for us when we ran `rails db:create`
 
 ```bash
-psql postgres
+psql 
 \c contacts_development
 ```
 
