@@ -14,7 +14,7 @@ Your boss wants you to design and build an API. The API is going to deliver some
 
 You know you will be dealing with **share prices** and **stocks**, and that the two things are related.
 
-You've been given a rails project that has the stock routes. You'll be adding prices to the database and API.
+You've been given a [rails project](stock_prices) to work in that already has the stock routes. You'll be adding prices to the database and API.
 
 We will be continuing the lab in the afternoon.
 
