@@ -86,6 +86,8 @@ There's a Ruby gem called [faker](https://github.com/stympy/faker) that you can 
 1. :exclamation: Watch out! Remember that our books have a relationship with users -- should there be something else you need to include in your seed data as well, outside of the book information?
     - Tip: Just make all 100 books belong to one user
 
+1. :exclamation: Are you getting a syntax error when you run the seed file? That's likely because of the apostrophe's in the faker data. The way that we've learned how to set up our SQL statements so far doesn't allow for apostrophes in our data as it would break the SQL statement. So, in order to circumvent that, take a closer look at [prepared SQL statements](../../w10d04/instructor_notes/2.%20INTRO_TO_RAILS_PREPARED_STATEMENTS.md) and try to rewrite your SQL queries that way! 
+
 ### Setting Up Rails to Seed the Right Database
 
 1. If you try running the seed command `rails db:seed` and get an error saying your database doesn't exist -- let's fix that!
