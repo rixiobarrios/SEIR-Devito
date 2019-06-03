@@ -54,16 +54,27 @@ Next, let's make the method that'll handle the change in input every time the us
 
 ```js
 // handle change
-handleChange = (e) => {
+handleChange(e) {
   console.log(e.target.value)
 }
 
 // handle submit
-handleSubmit = (e) => {
+handleSubmit(e) {
   e.preventDefault()
   console.log(this.state)
 }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> for both methods in the constructor!</strong></summary><p>
+
+   ```js
+  this.handleChange = this.handleChange.bind(this)
+  this.handleSubmit = this.handleSubmit.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Next let's edit our form now that we have state and our handler methods defined:
 
@@ -77,7 +88,7 @@ Next let's edit our form now that we have state and our handler methods defined:
 Great, now we can at least test that our methods are working correctly - and they are! Let's upgrade `handleChange` now so that it actually sets the state of the `task_item` in our state depending on the `e.target.value` that the user inputs:
 
 ```js
-handleChange = (e) => {
+handleChange(e) {
   this.setState({ task_item: e.target.value })
 }
 ```
@@ -85,11 +96,20 @@ handleChange = (e) => {
 Cool! One more quick thing before we deal with moving our data around, let's go ahead and create a method that'll clear the input form after the user submits. We'll do so by just reetting the `task_item` state to be an empty string:
 
 ```js
-clearForm = () => {
+clearForm() {
   this.setState({ task_item: '' })
 }
 ```
 
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.clearForm = this.clearForm.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 Now call the method in `handleSubmit` with:
 
 ```js
@@ -107,10 +127,20 @@ Earlier, we determined that we wanted to make the AJAX POST request in our App c
 Let's first create a handler method called `handleCreateTask` in `App.js`. We'll deal with making the actual `fetch` POST request later, so for now just make it so that it accepts the `task` data that we'll pass in later as an argument and console logs that `task`.
 
 ```js
-handleCreateTask = (task) => {
+handleCreateTask(task) {
   console.log(task)
 }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.handleCreateTask = this.handleCreateTask.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Now let's pass the handler down as a prop to Form:
 
@@ -167,7 +197,7 @@ fetch('API URL HERE', {
 Let's go ahead and use that format to make a POST request within our `handleCreateTask` method. For now, to make sure that we created successfully, let's just call on our `fetchTasks` method in the second promise so that our state should update with the new task.
 
 ```js
-handleCreateTask = (task) => {
+handleCreateTask(task) {
   fetch('http://localhost:3000/tasks', {
     body: JSON.stringify(task),
     method: 'POST',
@@ -197,11 +227,21 @@ Let's name our function `updateArray` and let's make it accept two variables (th
 For now, let's just log the arguments:
 
  ```js
-updateArray = (task, array) => {
+updateArray(task, array) {
   console.log(task)
   console.log(array)
 }
  ```
+ 
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.updateArray = this.updateArray.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Now, call it inside our `handleCreateTask` method in the second promise. For the second argument, let's pass in the `todoTasks` array since we know every new task created has to be in the `todoTasks`
 
@@ -232,7 +272,7 @@ this.setState( updater => {
 Knowing that is now useful because now we can just take a copy of the previous state's array, `push` the new task into the array, then send that updated array into the return object like so:
 
 ```js
-updateArray = (task, array) => {
+updateArray(task, array) {
   this.setState( prevState => {
     prevState[array].push(task)
     console.log(prevState)
