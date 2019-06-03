@@ -34,6 +34,7 @@ app.controller('MainController', [ '$http', function($http) {
       method: 'GET',
       url: '/holidays'
     }).then( response => {
+      // add all the holidays from database to our holidays array
       this.holidays = response.data
       this.holiday = this.holidays[0]
       console.log(this.holidays)
