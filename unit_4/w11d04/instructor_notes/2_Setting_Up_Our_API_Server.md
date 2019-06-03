@@ -50,7 +50,7 @@ Just in case: on the offchance you already have a database called `todo_developm
   - in psql:
 ```sql
 CREATE TABLE tasks (id SERIAL, task_item VARCHAR(255), completed BOOLEAN);
-INSERT INTO tasks (task_item, completed) VALUES ('Complete WDIR-Stan-Lee', false);
+INSERT INTO tasks (task_item, completed) VALUES ('Complete SEIR-Devito', false);
 INSERT INTO tasks (task_item, completed) VALUES ('Complete Unit 4', false);
 INSERT INTO tasks (task_item, completed) VALUES ('Complete Project 4', false);
 INSERT INTO tasks (task_item, completed) VALUES ('Learn Ruby', true);
