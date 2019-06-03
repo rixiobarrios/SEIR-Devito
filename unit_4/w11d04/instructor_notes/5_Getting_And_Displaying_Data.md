@@ -81,9 +81,6 @@ fetchTasks() {
 
  </p></details>
 
- <br/>
-
-
 ### Testing our fetch method
 
 For now, let's just test to make sure it's actually working as intended! This isn't where we're going to keep it, but for testing purposes let's call `this.fetchTasks()` inside the render method so that it'll run when our App is rendered.
@@ -236,6 +233,7 @@ Whew! That was a lot of code without much testing, so let's do that now by check
 </p></details>
 
 <br>
+
 Great! We were able to fetch our data, manipulate it, and set it in the App state. But... if you didn't comment out the `this.fetchTasks()` line in your render method, you'll notice the React console is acting a little weird when we look at the state. And if you look at your rails server tab in terminal, you'll also notice that our app is making an AJAX request over and over and over again. Uh-oh, that's not at all what we want. Let's fix that!
 
 ## React life cycles
