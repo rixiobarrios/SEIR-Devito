@@ -30,12 +30,22 @@ We already know a lot of what we're going to need to make a delete work smoothly
 For now, let's just have it console log all of that
 
 ```js
-handleDelete = (taskId, arrayIndex, currentArray) => {
+handleDelete(taskId, arrayIndex, currentArray) {
   console.log(taskId)
   console.log(arrayIndex)
   console.log(currentArray)
 }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.handleDelete = this.handleDelete.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Now that we have the handler written out, let's go ahead and pass it to the TaskList component
 
@@ -113,7 +123,7 @@ The syntax for making a DELETE request with fetch is much simpler than the POST 
 Let's go ahead and write the fetch request inside our `handleDelete` method. In the promise, let's utilize the `removeFromArray` method we wrote earlier.
 
 ```js
-handleDelete = (taskId, arrayIndex, array) => {
+handleDelete(taskId, arrayIndex, array) {
   fetch(`http://localhost:3000/tasks/${taskId}`, {
     method: 'DELETE'
   })
