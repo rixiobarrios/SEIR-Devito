@@ -64,7 +64,7 @@ We used `http://localhost:3000/tasks`, and we can use that in our `fetch`!
 We already established earlier that the best place to do so is in our App component, so make sure you're in `App.js` and then start writing the `fetchTasks` method. For now, we'll just console log the jsonedData to make sure it works.
 
 ```js
-fetchTasks = () => {
+fetchTasks() {
     fetch('http://localhost:3000/tasks')
 		.then(data => data.json())
     .then(jData => {
@@ -72,6 +72,17 @@ fetchTasks = () => {
     })
   }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.fetchTasks = this.fetchTasks.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
+
 
 ### Testing our fetch method
 
@@ -117,9 +128,11 @@ Rails makes it pretty easy for us to configure CORS, especially since we've used
   - Change the `origins` on line 10 to `*`
   - Restart your rails server
 
+> _NOTE:_ If you _do not_ include the `--api` flag when creating a rails API, the `rack-cors` gem and the `cors.rb` file will **not** be generated in the project. So make sure you don't forget that flag!
+
 Our frontend should be able to make AJAX requests to our API now! If not, try restarting your react server as well.
 
-> _NOTE:_ If you _do not_ include the `--api` flag when creating a rails API, the `rack-cors` gem and the `cors.rb` file will **not** be generated in the project. So make sure you don't forget that flag!
+  - If you were able to successfully make the AJAX request and notice your computer  slowing down, **comment out** the `this.fetchTasks()` method. We'll go over why later on! 
 
 ### What the code in `cors.rb` means
 
@@ -155,7 +168,7 @@ this.state = {
 Now, let's write a function called `sortTasks` that'll take in our task data as an argument and separate them depending on the `completed` boolean.
 
 ```js
-sortTasks = (tasks) => {
+sortTasks(tasks) {
   // default counter variables
   let completedTasks = []
   let todoTasks = []
@@ -171,10 +184,20 @@ sortTasks = (tasks) => {
 }
 ```
 
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.sortTasks = this.sortTasks.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
+
 Great, that method separates our tasks into two arrays, but we didn't set our state with it! Let's create another function called `setTasks` that'll accept the two arrays as arguments to handle that.
 
 ```js
-setTasks = (completed, todo) => {
+setTasks(completed, todo) {
 	this.setState({
 		completedTasks: completed,
 		todoTasks: todo
@@ -182,6 +205,16 @@ setTasks = (completed, todo) => {
 }
 ```
 
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.setTasks = this.setTasks.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
+ 
 Cool! Now, back in our `sortTasks` method, let's call the `setTasks` method and pass in our two arrays
 
 ```js
@@ -203,7 +236,7 @@ Whew! That was a lot of code without much testing, so let's do that now by check
 </p></details>
 
 <br>
-Great! We were able to fetch our data, manipulate it, and set it in the App state. But... the React console is acting a little weird when we look at the state. And if you look at your rails server tab in terminal, you'll also notice that our app is making an AJAX request over and over and over again. Uh-oh, that's not at all what we want. Let's fix that!
+Great! We were able to fetch our data, manipulate it, and set it in the App state. But... if you didn't comment out the `this.fetchTasks()` line in your render method, you'll notice the React console is acting a little weird when we look at the state. And if you look at your rails server tab in terminal, you'll also notice that our app is making an AJAX request over and over and over again. Uh-oh, that's not at all what we want. Let's fix that!
 
 ## React life cycles
 
