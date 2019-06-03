@@ -36,12 +36,22 @@ We previously determined that we want the actual PUT request to happen in the Ap
 For now, let's just have it console log all of that
 
 ```js
-handleCheck = (task, arrayIndex, currentArray) => {
+handleCheck(task, arrayIndex, currentArray) {
   console.log(task)
   console.log(arrayIndex)
   console.log(currentArray)
 }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.handleCheck = this.handleCheck.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Now that we have the handler written out, let's go ahead and pass it to the TaskList component
 
@@ -99,7 +109,7 @@ We can't just pass `task` into our fetch request because the `completed` boolean
 ###### In `App.js` in the `handleCheck` method
 
 ```js
-handleCheck = (task, arrayIndex, array) => {
+handleCheck(task, arrayIndex, array) {
   // manipulate the task data
   task.completed = !task.completed
   console.log(task)
@@ -142,7 +152,7 @@ As previously discussed, we don't want to make extra AJAX calls when we don't ne
 Thanks to our forethought, we created arguments in our `handleCheck` method that lets us know what array the task was previously in as well as what index it was at. We can now utilize that information to `splice` the task out of its old array. So let's create a method called `removeFromArray` that'll accept the array and array index as arguments and update the state of that array
 
 ```js
-removeFromArray = (array, arrayIndex) => {
+removeFromArray(array, arrayIndex) {
   this.setState(prevState => {
     prevState[array].splice(arrayIndex, 1)
     return {
@@ -151,6 +161,16 @@ removeFromArray = (array, arrayIndex) => {
   })
 }
 ```
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+
+   ```js
+  this.removeFromArray = this.removeFromArray.bind(this)
+  ```
+
+ </p></details>
+
+ <br/>
 
 Now let's use that method inside our `handleCheck` method inside the second promise
 
