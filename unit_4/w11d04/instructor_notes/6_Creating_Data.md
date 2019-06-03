@@ -289,7 +289,7 @@ Great! Now we're able to create data and update our state _without_ making an ex
 
 ### One more little extra thing
 
-Just for an update user experience, let's make it so that even if the user is in the completed view, after creating a task it will immediately toggle to the todo view so that the user can see the added task right away.
+Just for an updated user experience, let's make it so that even if the user is in the completed view, after creating a task it will immediately toggle to the todo view so that the user can see the added task right away.
 
 We already made a method to handle toggling between views, so let's just utlize that `handleView` method and call it inside the second promise of our `handleCreateTask` method:
 
