@@ -191,12 +191,23 @@ First, let's write a handler that'll handle the `currentView` state
 #### IN THE APP CLASS SOMEWHERE ABOVE THE RENDER:
 
 ```js
-handleView = (view) => {
+handleView(view) {
   this.setState({ currentView: view })
 }
 ```
 
 > _HOW IT WORKS:_ handleView takes in an argument, then updates the `currentView` state to equal that argument
+
+
+<details><summary><strong>Don't forget to <code>.bind(this)</code> method in the constructor!</strong></summary><p>
+  
+  ```js
+  this.handleView = this.handleView.bind(this)
+  ```
+  
+</p></details>
+
+<br/>
 
 Now that we have a handler, we have to pass it down to the Header since that's where the `onClick` event will actually happen
 
@@ -228,41 +239,7 @@ Now that the handler's been passed down the our Header, we can actually use it w
 
 > _HOW IT WORKS:_ we passed in either `todo` or `completed` as arguments to `handleView` depending on what link is being clicked so that when `handleView` updates state, it'll always either be `todo` or `completed`, which is what we based our ternary expressions on.
 
-Great, now our views should toggle! But... wait, we didn't `.bind(this)`... so how did that work? Long story short, it's because we used an arrow function when writing our method instead of function declaration. If you want to see more about why that works, click on the following dropdown to read the notes below!
-
-<details><summary><strong>Function Declaration vs. Arrow Functions</strong></summary><p>
-
-Reminders:
-
-  - **Function declaration** is when a function is written like
-  ```js
-  functionName() {
-    // function stuff in here!
-  }
-  ```
-  - **Arrow functions** are functions written like
-  ```js
-  functionName = () => {
-    // function stuff in here!
-  }
-  ```
-
-So far, we've taught you guys to use function declaration when writing methods in your react components. React documentation also shows you to write your methods that way, which is why we chose to show you writing them in that way since it seems to be the classic 'react way'. Writing your methods out that way also makes your code look more consistent since you call the constructor and render methods using function declaration as well.
-
-That said, it's not like you _can't_ use arrow functions inside react components. The main benefit to doing so is that you do not have to `.bind(this)` for every method you write that utilizes `this`.
-
-### Why don't we need to `.bind(this)` when using arrow functions?
-
-The main difference between function declarations and arrow functions in JavaScript are how they treat `this`.
-
-  - **In function declarations**, `this` will refer to the `this` of the function in itself.
-  - **In arrow functions**, `this` will refer to the `this` of the _environment_ that the function itself _resides_ in.
-
-Thus, for arrow functions `this` will always refer to the same `this`, no matter where the function is being called.
-
-So, for the `handleView` method that we wrote, since we wrote it as an arrow function inside of our `App`, `this` will always refer to the `this` of the App class, even though we didn't `.bind(this)`
-
-</p></details>
+Great, now our views should toggle! Let's move on to displaying some of our data.
 
 ---
 
