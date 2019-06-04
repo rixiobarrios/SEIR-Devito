@@ -65,21 +65,9 @@ class App extends Component {
           <h1>Tunr.</h1>
           <h2>For all your playlist needs</h2>
         </header>
-        <Playlist />
-        <div className="playlist">
-          <h1>{this.state.playlist.title}</h1>
-          <div className="songs">
-          {this.state.playlist.songs.map ((song, index) => {
-            return (
-              <div className="song" key={index}>
-                <h1>{song.title}</h1>
-                <h2>{song.artist}</h2>
-                <h3>{song.time}</h3>
-              </div>
-            )
-          })}
-          </div>
-        </div>
+        <Playlist
+          playlist={this.state.playlist}
+        />
         <form onSubmit={this.handleSubmit}>
           <label htmlFor='title'>title</label>
           <input type="text" value={this.state.title} onChange={this.handleChange} id="title"/>
