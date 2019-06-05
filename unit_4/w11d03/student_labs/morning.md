@@ -1,32 +1,14 @@
 # Set up
 
-Use Create React App (and don't forget to remove the .git)
+Use Create React App (and don't forget to remove the .git) to set up a react project called `heirloom-app`
 
-**OR**
-
-1. `mkdir heirloom-app`
-1. `cd heirloom-app`
-1. `touch app.js index.html`
-1. `atom .`
-1. `index.html`
-  1. html boilerplate
-  1. react cdn links
-  1. add `main` tag to body
-  1. link `app.js`
-1. `app.js`
-  1. `RectDom.render()` an `h1` element (e.g. `        <h1> Heirloom Furniture Restoration </h1>`) and have it render inside the `main` tag in the html
-1. start a server (`python SimpleHTTPServer`, or `python http.server` or npm `http-server`)
-
-
-If you are using CREATE REACT APP, clear out all their stuff and just have an h1 element:
+In `App.js` clear out all their stuff and just have an h1 element displaying 'Hello World'
 
 You should now have an h1 element render in the DOM
 
 - **Optional** : Bored of plain html? Feel like you need some css practice? Set a timer for 10 minutes and add a `index.css` file, include a google font, background color and font color. If you have some leftover time try to style some thing else, a special style for the h1? You'll be using a `ul` and `li`s as well, maybe some other colors or fonts there?
 
 ## Inside the App class
-
-
 
 ```js
 class App extends React.Component {
@@ -70,11 +52,9 @@ element inside of it. This `li` element should render {this.props.chair} as `Gra
 
 ![rendered html](https://i.imgur.com/ZiWWkw4.png)
 
-
 Check your react dev tools too
 
 Expected Appearance
-
 
 ![](https://camo.githubusercontent.com/3ea69eb7b5c08bbbaf14cdeca4f993e1d28855f0/68747470733a2f2f692e696d6775722e636f6d2f4e356e743145412e706e67)
 
@@ -249,20 +229,6 @@ The commit message should read: <br>
 ## Delete an Item
 
 It's hungry for more! Figure it out! You can do it!
-
-<hr>
-&#x1F534;
-
-**Commit your work**
-
-<br>
-The commit message should read:
-
-<br>
-"I did it. HFM. YAY ME"
-
-
-<hr>
 
 ## Practice CSS
 
