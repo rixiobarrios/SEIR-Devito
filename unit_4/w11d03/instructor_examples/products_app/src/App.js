@@ -11,6 +11,7 @@ class App extends Component {
       cart: []
     }
     this.addToCart = this.addToCart.bind(this)
+    this.removeCartItem = this.removeCartItem.bind(this)
   }
 
   // create a addToCart method that will
@@ -28,8 +29,25 @@ class App extends Component {
  }
 
  removeCartItem(index) {
-  console.log('this is index', index)
+   console.log('this is index from removeCartItem', index)
+   let newArr = this.state.cart.slice()
+   newArr.splice(index,1)
+   this.setState({
+     cart: newArr
+   })
  }
+
+ // REMOVE AN ITEM FROM CART
+ // Create the removeCartItem method
+ //   - create a new array that is a replica of this.state.cart using slice()
+ //   - use splice to remove the element from the array based on its index
+ //   - set state to the spliced array
+ // Bind the removeCartItem method in the constructor
+ // Pass the method down as a prop to MyShoppingCart
+ // Add an onClick event to the the item that calls the removeCartItem method
+ // Pass the index of the item to removeCartItem when it's called
+
+
   // what is the one required method in component..render
   render() {
     return (
@@ -51,6 +69,7 @@ class App extends Component {
         </div>
         <MyShoppingCart
           cart={this.state.cart}
+          handleRemove={this.removeCartItem}
         />
       </div>
     );

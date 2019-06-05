@@ -9,8 +9,10 @@ class MyShoppingCart extends Component {
         {this.props.cart.map((item, index, arr) => {
           console.log('inside map', item, index, arr)
           return (
-            
-            <li key={index}>{item.name}</li>
+            <li
+              onClick={() => this.props.handleRemove(index)}
+              key={index}
+            >{item.name}</li>
           )
         })}
       </div>
