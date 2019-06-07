@@ -179,7 +179,7 @@ Let's take a look at the general format altogether:
 ```js
 fetch('API URL HERE', {
   body: JSON.stringify(data),
-  method: 'PUT',
+  method: 'POST',
   headers: {
     'Accept': 'application/json, text/plain, */*',
     'Content-Type': 'application/json'
